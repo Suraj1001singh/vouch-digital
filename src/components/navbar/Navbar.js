@@ -18,7 +18,7 @@ const Navbar = () => {
         <Button className="barsMenu" onClick={() => setShowDrawer(true)}>
           <span className="barsBtn"></span>
         </Button>
-        <Drawer title="Basic Drawer" placement="right" closable={false} onClose={() => setShowDrawer(false)} visible={showDrawer}>
+        <Drawer title="Basic Drawer" width={240} placement="right" closable={false} onClose={() => setShowDrawer(false)} visible={showDrawer}>
           <RightMenu />
         </Drawer>
       </div>
